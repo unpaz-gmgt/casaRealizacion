@@ -9,7 +9,7 @@ Pepe y Julián viven juntos, y les gusta comprar **cosas**.
 - si es comida o no (un valor verdadero o falso)
 - si es un electrodoméstico o no. (un valor verdadero o falso)
 
-## Sobre las cosas que se compran
+## Sobre las cosas que se pueden comprar
 En este modelo reducido, vamos a considerar las siguientes cosas que podrían ser interesantes para comprar: 
 - una heladera que vale 20000 pesos
 - una cama que sale 8000
@@ -19,6 +19,7 @@ En este modelo reducido, vamos a considerar las siguientes cosas que podrían se
 
 Por las dudas aclaramos: la cama no es un electrodoméstico, la plancha sí.
 
+## La CASA
 Implementar, además de los objetos que representan cada cosa, un objeto que represente a la **casa**, que contenga una coleccion una coleccion de cosas y que entienda los siguientes mensajes:
 - `comprar(cosa)`: registra que se ha comprado una cosa.
 - `cantidadDeCosasCompradas()`: indica ... eso.
